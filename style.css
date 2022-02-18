@@ -23,7 +23,6 @@ ul {
 
 h1 {
   margin: 0;
-  padding: 0;
 }
 
 /* Header */
@@ -52,7 +51,6 @@ header {
   align-items: center;
   justify-content: center;
   gap: 15px;
-  /* z-index: 1; */
 }
 
 .aboutme-container {
@@ -88,14 +86,55 @@ header {
   height: 100px;
 }
 
-/* Content section */
-#content {
-  height: 300px;
-}
-
-.panel {
+/* Contents section */
+#contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  background-image: url(images/panel.png);
+  background-size: cover;
   margin-top: -150px;
   z-index: -1;
+}
+
+.main-text,
+.path,
+.contents-container {
+  margin-top: 120px;
+}
+
+.main-text {
+  color: #8cb8bd;
+  font-size: 80px;
+  font-weight: 800;
+  writing-mode: sideways-lr;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+.path {
+  height: 300px;
+  margin-left: -10px;
+}
+
+.contents-container {
+  /* background-color: #f5c300; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-between;
+  gap: 50px;
+  width: 700px;
+  height: 350px;
+  margin-left: 100px;
+}
+
+.content-box{
+  background: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 16px hsla(0, 0%, 0%, 0.2);
 }
 
 /* Section */
