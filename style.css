@@ -1,0 +1,180 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  margin: 0;
+  /* height: 100vh; */
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #f5c300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.myname {
+  width: 700px;
+}
+
+.keywords {
+  font-weight: 100;
+  color: #3b2409;
+}
+
+/* Hero section */
+#hero {
+  background-color: #f5c300;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  /* z-index: 1; */
+}
+
+.aboutme-container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.about-me {
+  width: 250px;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #3b2409;
+}
+
+.avatar {
+  width: 300px;
+}
+
+.waves {
+  height: 150px;
+}
+
+.waves.one {
+  z-index: 1;
+}
+
+.waves.two {
+  height: 100px;
+}
+
+/* Content section */
+#content {
+  height: 300px;
+}
+
+.panel {
+  margin-top: -150px;
+  z-index: -1;
+}
+
+/* Section */
+#section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-container {
+  background: white;
+  width: 900px;
+  height: 500px;
+  margin: 50px 0;
+  padding: 30px 0 0 30px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 16px hsla(0, 0%, 0%, 0.2);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.title-container {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+}
+
+.icons {
+  display: flex;
+}
+
+.number,
+.title {
+  color: #f5c300;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.title {
+  font-family: 'Chewy', cursive;
+  font-size: 40px;
+}
+
+.striped-border {
+  border: 1px dashed hsla(0, 0%, 0%, 0.2);
+  margin-left: -30px;
+}
+
+.description {
+  color: #3b2409;
+  width: 400px;
+}
+
+.poster {
+  align-self: flex-start;
+  width: 250px;
+  position: absolute;
+  bottom: 0;
+  margin: 0 0 25px 55px;
+}
+
+.stand {
+  align-self: flex-end;
+  width: 320px;
+  position: absolute;
+  bottom: 0;
+  margin-right: 145px;
+}
+
+footer {
+  background-color: #f5c300;
+  height: 150px;
+}
