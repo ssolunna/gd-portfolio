@@ -159,7 +159,7 @@ header {
   font-size: 30px;
 }
 
-/* Section */
+/* Content sections */
 #section {
   display: flex;
   justify-content: center;
@@ -219,6 +219,7 @@ header {
   width: 400px;
 }
 
+/* Poster section */
 .poster {
   align-self: flex-start;
   width: 250px;
@@ -234,6 +235,24 @@ header {
   bottom: 0;
   margin-right: 145px;
 }
+
+/* Flyer section */
+.flyer {
+  align-self: flex-start;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  margin: 0 0 40px 40px;
+}
+
+.second-flyer {
+  align-self: flex-end;
+  width: 350px;
+  position: absolute;
+  bottom: 0;
+  margin-right: 90px;
+}
+
 
 footer {
   background-color: #f5c300;
