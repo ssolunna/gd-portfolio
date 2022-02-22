@@ -219,38 +219,84 @@ header {
   width: 400px;
 }
 
-/* Poster section */
+.section-container > img {
+  position: absolute;
+  bottom: 0;
+}
+
+/* Poster design section */
 .poster {
   align-self: flex-start;
   width: 250px;
-  position: absolute;
-  bottom: 0;
   margin: 0 0 25px 55px;
 }
 
 .stand {
   align-self: flex-end;
   width: 320px;
-  position: absolute;
-  bottom: 0;
   margin-right: 145px;
 }
 
-/* Flyer section */
-.flyer {
+/* Flyer design section */
+.flyer-one {
   align-self: flex-start;
   height: 300px;
-  position: absolute;
-  bottom: 0;
   margin: 0 0 40px 40px;
 }
 
-.second-flyer {
+.flyer-two {
   align-self: flex-end;
   width: 350px;
+  margin-right: 90px;
+}
+
+/* Logo design section */
+.shapes-container {
+  align-self: flex-start;
   position: absolute;
   bottom: 0;
-  margin-right: 90px;
+  margin: 0 0 90px -30px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.shapes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* .circle {
+  color: #f5c300;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+} */
+
+.shapes img {
+  width: 50px;
+}
+
+.shapes .letter {
+  color: #52575b;
+  font-family: 'Chewy', cursive;
+  font-size: 30px;
+}
+
+.plus-sign {
+  color: #3b2409;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.logo {
+  width: 250px;
+  margin-left: 170px;
 }
 
 
