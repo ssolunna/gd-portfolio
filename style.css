@@ -22,7 +22,8 @@ ul {
 }
 
 h1,
-h2 {
+h2,
+p {
   margin: 0;
 }
 
@@ -199,12 +200,16 @@ header {
 
 .number,
 .title {
-  color: #f5c300;
   font-size: 30px;
   font-weight: 800;
 }
 
+.number {
+  color: #8cb8bd;
+}
+
 .title {
+  color: #f5c300;
   font-family: 'Chewy', cursive;
   font-size: 40px;
 }
@@ -270,13 +275,6 @@ header {
   gap: 15px;
 }
 
-/* .circle {
-  color: #f5c300;
-  position: absolute;
-  width: 200px;
-  height: 200px;
-} */
-
 .shapes img {
   width: 50px;
 }
@@ -299,6 +297,16 @@ header {
   margin-left: 170px;
 }
 
+/* UI design section */
+.ui-laptop {
+  left: 0;
+  width: 340px;
+}
+
+.ui-desktop {
+  right: 0;
+  width: 550px;
+}
 
 footer {
   background-color: #f5c300;
