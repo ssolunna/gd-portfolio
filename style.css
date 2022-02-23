@@ -84,10 +84,6 @@ header {
   z-index: 1;
 }
 
-.waves.two {
-  height: 100px;
-}
-
 /* Contents section */
 #contents {
   display: flex;
@@ -116,8 +112,7 @@ header {
 }
 
 .path {
-  height: 300px;
-  margin-left: -10px;
+  height: 450px;
 }
 
 .contents-container {
@@ -256,11 +251,11 @@ header {
 }
 
 /* Logo design section */
-.shapes-container {
+.logo-design_container {
   align-self: flex-start;
   position: absolute;
   bottom: 0;
-  margin: 0 0 50px -30px;
+  margin: 0 0 40px -30px;
   align-self: center;
   display: flex;
   justify-content: center;
@@ -292,7 +287,7 @@ header {
   margin-bottom: 50px;
 }
 
-.logo-container {
+.logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -307,7 +302,7 @@ header {
   box-shadow: 0px 4px 16px hsla(0, 0%, 0%, 0.2);
 }
 
-.logo {
+.logo > img {
   width: 200px;
   position: absolute;
 }
@@ -334,7 +329,30 @@ header {
   width: 520px;
 }
 
+.waves.two {
+  height: 100px;
+}
+
+/* Thanks section */
+#thanks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  background-image: url(images/panel.png);
+  background-size: cover;
+  margin: -40px 0 -200px 0;
+  rotate: 180deg;
+  z-index: -1;
+}
+
+.thank-you {
+  rotate: 180deg;
+  width: 500px;
+  margin-bottom: -150px;
+}
+
 footer {
   background-color: #f5c300;
-  height: 50px;
+  height: 500px;
 }
