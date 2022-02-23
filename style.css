@@ -36,8 +36,8 @@ header {
   padding: 20px 0;
 }
 
-.myname {
-  width: 700px;
+.portfolio {
+  width: 500px;
 }
 
 .keywords {
@@ -354,5 +354,5 @@ header {
 
 footer {
   background-color: #f5c300;
-  height: 500px;
+  height: 200px;
 }
