@@ -352,7 +352,21 @@ header {
   margin-bottom: -150px;
 }
 
+/* Footer */
 footer {
   background-color: #f5c300;
+  color: #3b2409;
+  font-weight: 100;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
