@@ -260,7 +260,7 @@ header {
   align-self: flex-start;
   position: absolute;
   bottom: 0;
-  margin: 0 0 90px -30px;
+  margin: 0 0 50px -30px;
   align-self: center;
   display: flex;
   justify-content: center;
@@ -272,7 +272,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
 }
 
 .shapes img {
@@ -292,9 +292,24 @@ header {
   margin-bottom: 50px;
 }
 
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+}
+
+.circle {
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 16px hsla(0, 0%, 0%, 0.2);
+}
+
 .logo {
-  width: 250px;
-  margin-left: 170px;
+  width: 200px;
+  position: absolute;
 }
 
 /* UI design section */
@@ -305,10 +320,21 @@ header {
 
 .ui-desktop {
   right: 0;
+  width: 600px;
+}
+
+/* Social media post/story design section */
+.smedia-stories {
   width: 550px;
+  margin: 0 0 -30px -90px;
+}
+
+.smedia-posts {
+  right: 0;
+  width: 520px;
 }
 
 footer {
   background-color: #f5c300;
-  height: 150px;
+  height: 50px;
 }
