@@ -9,8 +9,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  /* justify-content: space-between; */
-  /* height: 100vh; */
 }
 
 ul {
@@ -52,11 +50,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 30px;
 }
 
 .aboutme-container {
-  width: 500px;
+  width: 470px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -70,6 +68,10 @@ header {
 .subtext {
   font-size: 18px;
   color: #3b2409;
+}
+
+.subtext.three {
+  border: 1px dashed hsla(0, 0%, 0%, 0.2);
 }
 
 .avatar {
