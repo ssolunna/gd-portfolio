@@ -104,7 +104,8 @@ header {
   color: #8cb8bd;
   font-size: 80px;
   font-weight: 800;
-  writing-mode: sideways-lr;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
   text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
   margin-left: 40px;
 }
@@ -327,12 +328,12 @@ header {
   background-image: url(images/panel.png);
   background-size: cover;
   margin-bottom: -200px;
-  rotate: 180deg;
+  transform: rotate(180deg);
   z-index: -1;
 }
 
 .thank-you {
-  rotate: 180deg;
+  transform: rotate(180deg);
   width: 700px;
   margin-bottom: -150px;
 }
