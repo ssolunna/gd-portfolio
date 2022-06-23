@@ -1,6 +1,8 @@
 # Graphic Design Portfolio (2019-2021)
 A personal project to practice my `HTML5` and `CSS3` skills and, at the same time, to showcase some of the **graphic design projects** that I have done in the past 3 years ([Live preview](https://ssolunna.github.io/gd-portfolio/)).
 > **Note:** This webpage is meant for desktop devices only.
+
+![Animation](https://user-images.githubusercontent.com/65374099/175400813-f7cf5913-4bf1-4857-be0f-544b58b14922.gif)
 ## The Outline
  - Poster design
  - Flyer design
