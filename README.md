@@ -2,7 +2,8 @@
 A personal project to practice my `HTML5` and `CSS3` skills and, at the same time, to showcase some of the **graphic design projects** that I have done in the past 3 years ([Live preview](https://ssolunna.github.io/gd-portfolio/)).
 > **Note:** This webpage is meant for desktop devices only.
 
-![Animation](https://user-images.githubusercontent.com/65374099/175400813-f7cf5913-4bf1-4857-be0f-544b58b14922.gif)
+![gd-portfolio7](https://user-images.githubusercontent.com/65374099/187310409-26aa4d5e-6cda-4266-ba79-1ad096115deb.gif)
+
 ## The Outline
  - Poster design
  - Flyer design
